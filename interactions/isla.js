@@ -53,7 +53,7 @@ module.exports = {
 			case 'reclamar':
 				if (!canal_reclamos) {
 					return await interaction.reply({
-						content: '🔴 ERROR: El canal de reclamos no esta configurado, contacta con BkNcs2 o Poak',
+						content: '`🔴` ERROR: El canal de reclamos no esta configurado, contacta con BkNcs2 o Poak',
 						ephemeral: true,
 					});
 				}

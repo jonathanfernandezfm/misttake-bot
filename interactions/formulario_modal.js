@@ -7,7 +7,7 @@ module.exports = {
 	execute: async (interaction) => {
 		if (!canal_formulario) {
 			return await interaction.reply({
-				content: '🔴 ERROR: El canal para mandar formularios no esta configurado, contacta con Poak',
+				content: '`🔴` ERROR: El canal para mandar formularios no esta configurado, contacta con Poak',
 				ephemeral: true,
 			});
 		}
@@ -16,7 +16,7 @@ module.exports = {
 		if (person._roles.includes(rol_espera) || person._roles.includes(rol_denegado)) {
 			return await interaction.reply({
 				content:
-					'🔴 ERROR: No puedes volver a mandar otro formulario, contacta con un reclutador para mas ayuda',
+					'`🔴` ERROR: No puedes volver a mandar otro formulario, contacta con un reclutador para mas ayuda',
 				ephemeral: true,
 			});
 		}

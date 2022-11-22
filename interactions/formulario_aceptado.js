@@ -7,7 +7,7 @@ module.exports = {
 	execute: async (interaction) => {
 		if (!rol_aceptado) {
 			return await interaction.reply({
-				content: '🔴 ERROR: El rol para usuarios aceptados no esta configurado, contacta con BkNcs2 o Poak',
+				content: '`🔴` ERROR: El rol para usuarios aceptados no esta configurado, contacta con BkNcs2 o Poak',
 				ephemeral: true,
 			});
 		}
@@ -31,10 +31,9 @@ module.exports = {
 			.setColor('#64ff64')
 			.setTitle('`✅` __Tu formulario ha sido aceptado__ ')
 			.setDescription(
-				'**¡Has obtenido el rol de <@&' +
-					rol_aceptado +
-					'>!**\n\nEs importante que leas la normativa si no lo has hecho anteriormente \n> ➟ <#' +
-					canal_normativa
+				'**¡Has obtenido el rol de `🐜 New Bro`!**\n\nEs importante que leas la normativa si no lo has hecho anteriormente \n> ➟ <#' +
+					canal_normativa +
+					'>'
 			);
 		// '>\n\nLee el decálogo de los integrantes de nuestro gremio \n> ➟ <#1039132556165124116>\n\nConoce más acerca de los rangos del gremio y su funcionamiento \n> ➟ <#' +
 		// canal_roles +
