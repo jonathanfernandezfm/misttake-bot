@@ -20,7 +20,7 @@ module.exports = {
 		const embed_response = new EmbedBuilder().setColor('#17fc03').setTitle('📦 Tu cofre ha sido asignado ✅');
 
 		dmChannel.send({
-			content: 'ㅤ    ',
+			content: '',
 			embeds: [embed_response],
 		});
 	},

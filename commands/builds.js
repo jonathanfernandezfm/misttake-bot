@@ -34,7 +34,7 @@ module.exports = {
 		);
 
 		const embed = new EmbedBuilder()
-			.setTitle('ㅤㅤㅤ                           ❮❮    BUILDS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
+			.setTitle('ㅤㅤ                       ❮❮    BUILDS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
 			.setColor('#E9A6F2')
 			.setDescription(
 				'\n\n> `⚔️` Aquí encontrarás información importante sobre la composición de builds que usamos para cada actividad.\n\n> `⚠️` Para acceder a los apartados haz click en el menú de abajo para navegar entre las diferentes composiciones.\n'

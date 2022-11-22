@@ -6,7 +6,7 @@ module.exports = {
 	execute: async (interaction) => {
 		const embed_objectives = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    OBJETIVOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                              ❮❮    OBJETIVOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#FFA91E')
 			.setDescription(
@@ -16,7 +16,7 @@ module.exports = {
 
 		const embed_caerleon = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    FACCIÓN CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                 ❮❮    FACCIÓN CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#EC0000')
 			.setDescription(
@@ -26,7 +26,7 @@ module.exports = {
 
 		const embed_hideout = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    HIDEOUT    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                              ❮❮    HIDEOUT    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor(8767009)
 			.setDescription(

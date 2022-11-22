@@ -26,7 +26,7 @@ module.exports = {
 
 		const embed = new EmbedBuilder()
 
-			.setTitle('ㅤㅤㅤ           ❮❮    NORMATIVA KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
+			.setTitle('ㅤㅤ       ❮❮    NORMATIVA KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
 			.setColor('386CE5') //
 			.setDescription(
 				'\n\n> `📔` Todos los miembros del gremio tienen el deber de respetar las normas generales en el desarrollo de las actividades del gremio, de lo contrario, el equipo de administración tomará medidas dependiendo del grado de desobediencia\n'
@@ -34,7 +34,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/gc6xe6k.png');
 
 		await msg.channel.send({
-			content: 'ㅤ    ',
+			content: '',
 			embeds: [embed],
 			components: [row],
 		});

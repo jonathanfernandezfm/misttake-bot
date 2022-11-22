@@ -19,7 +19,7 @@ module.exports = {
 		const embed_response = new EmbedBuilder().setColor('#fc0303').setTitle('📦 Tu cofre ha sido denegado ❌');
 
 		dmChannel.send({
-			content: 'ㅤ    ',
+			content: '',
 			embeds: [embed_response],
 		});
 	},

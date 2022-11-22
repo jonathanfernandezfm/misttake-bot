@@ -26,7 +26,7 @@ module.exports = {
 
 		const embed = new EmbedBuilder()
 
-			.setTitle('ㅤㅤㅤ         ❮❮    BIENVENIDO A KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
+			.setTitle('ㅤㅤ     ❮❮    BIENVENIDO A KYMERA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━')
 			.setColor('386CE5')
 			.setDescription(
 				'\n\n> `🌐` Aquí encontrarás información esencial sobre el contenido que realizamos, objetivos de season, zona por la que nos movemos, hideout y puntos importantes a tener en cuenta.\n\n> `🏰` Actualmente nuestro contenido se enfoca en el portal de __**Bridgewatch**__. Podrás acceder a la isla privada del gremio mediante el viajante en la pestaña **"Kymera Bridgewatch"**.\n\n> `⚠️` Para ver los diferentes apartados que hay disponible actualmente, haz click en el menú desplegable de abajo.\n'
@@ -34,7 +34,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/EkOZeZT.png');
 
 		await msg.channel.send({
-			content: 'ㅤ    ',
+			content: '',
 			embeds: [embed],
 			components: [row],
 		});

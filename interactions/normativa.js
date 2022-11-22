@@ -6,7 +6,7 @@ module.exports = {
 	execute: async (interaction) => {
 		const embed_general = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                    ❮❮    NORMATIVA GENERAL    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                ❮❮    NORMATIVA GENERAL    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#3769a9')
 			.setDescription('`Normas aplicables con carácter general⠀`')
@@ -57,7 +57,7 @@ module.exports = {
 
 		const embed_ncaerleon = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮    NORMATIVA CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                 ❮❮    NORMATIVA CAERLEON    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#5f2626')
 			.setDescription('`Normas aplicables únicamente a Fama`')
@@ -98,7 +98,7 @@ module.exports = {
 
 		const embed_nfama = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    NORMATIVA FAMA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                              ❮❮    NORMATIVA FAMA    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#c5bd63')
 			.setDescription('`Normas aplicables únicamente a Fama`')

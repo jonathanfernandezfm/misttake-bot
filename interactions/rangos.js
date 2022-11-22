@@ -83,7 +83,7 @@ module.exports = {
 
 		const embed_vacantes = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮    VACANTES    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                              ❮❮    VACANTES    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('386CE5') //
 			.setDescription(

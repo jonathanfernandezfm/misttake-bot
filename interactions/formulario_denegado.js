@@ -29,7 +29,7 @@ module.exports = {
 		// .setImage('https://i.imgur.com/CYz5IsA.png');
 
 		dmChannel.send({
-			content: 'ㅤ    ',
+			content: '',
 			embeds: [embed_response],
 		});
 	},

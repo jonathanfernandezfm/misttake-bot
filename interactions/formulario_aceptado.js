@@ -1,5 +1,5 @@
 const { EmbedBuilder } = require('discord.js');
-const { rol_aceptado, rol_reclutador, canal_normativa } = require('../data/db.json');
+const { rol_aceptado, rol_reclutador, canal_normativa, rol_espera } = require('../data/db.json');
 
 module.exports = {
 	name: 'aceptar_formulario',
@@ -26,6 +26,7 @@ module.exports = {
 
 		const person = await interaction.guild.members.fetch(user.id);
 		person.roles.add(rol_aceptado);
+		person.roles.remove(rol_espera);
 
 		const embed_response = new EmbedBuilder()
 			.setColor('#64ff64')
@@ -42,7 +43,7 @@ module.exports = {
 		// .setImage('https://i.imgur.com/t6G2Us8.png');
 
 		dmChannel.send({
-			content: 'ㅤ    ',
+			content: '',
 			embeds: [embed_response],
 		});
 	},

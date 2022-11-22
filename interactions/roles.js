@@ -6,7 +6,7 @@ module.exports = {
 	execute: async (interaction) => {
 		const embed_rolesusados1 = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                       ❮❮    ROLES MÁS USADOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                   ❮❮    ROLES MÁS USADOS    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#FF7A4D') //
 			.setDescription('`🌍 Roles más usados actualmente en Open World`')
@@ -127,7 +127,7 @@ module.exports = {
 
 		const embed_requisitos1 = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                  ❮❮ REQUISITOS    ❯❯  ㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                              ❮❮ REQUISITOS    ❯❯  ㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('#FF7A4D') //
 			.setDescription(
@@ -136,7 +136,7 @@ module.exports = {
 			.setImage('https://i.imgur.com/MYpI7JX.png');
 
 		const embed_reclamar1 = new EmbedBuilder()
-			.setTitle('━━━━━━━━━━━━━━━━━━━ㅤㅤ         ❮❮    RECLAMAR ROL   ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━')
+			.setTitle('━━━━━━━━━━━━━━━━━━━ㅤ     ❮❮    RECLAMAR ROL   ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━')
 			.setColor('#FF7A4D') //
 			.setDescription(
 				'➡️ Mandar imagen por privado a:\n\n <@235918049990017025>\n\n<@599553288760852505>\n\n El formato de la imagen tiene que ser como la que se muestra debajo:\n'

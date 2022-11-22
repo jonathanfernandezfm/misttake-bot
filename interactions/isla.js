@@ -7,7 +7,7 @@ module.exports = {
 	execute: async (interaction) => {
 		const embed_cofres = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                     ❮❮     COFRES PERSONALES    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                 ❮❮     COFRES PERSONALES    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('386CE5')
 			.setDescription(
@@ -17,7 +17,7 @@ module.exports = {
 
 		const embed_loot = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                       ❮❮     REPARTO DE LOOT    ❯❯  ㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                   ❮❮     REPARTO DE LOOT    ❯❯  ㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('386CE5')
 			.setDescription(
@@ -27,7 +27,7 @@ module.exports = {
 
 		const embed_reclamado = new EmbedBuilder()
 			.setTitle(
-				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤㅤ                                            ❮❮    COFRE RECLAMADO    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
+				'━━━━━━━━━━━━━━━━━━━━━━━━ㅤ                                        ❮❮    COFRE RECLAMADO    ❯❯  ㅤㅤㅤ━━━━━━━━━━━━━━━━━━━━━━━━'
 			)
 			.setColor('386CE5');
 
