@@ -15,7 +15,8 @@ module.exports = {
 			.setColor('#FFCA38')
 			.setDescription(
 				'\n\n `📝` Para acceder al formulario pulsa en el botón de abajo. El equipo de reclutadores leerá tu solicitud y te atenderá cuanto antes.\n\n`⚠️` Es obligatorio que tu nombre de Albion Online sea el que uses actualmente y se corresponda con el usuario de tu discord para facilitarnos el trabajo.\n'
-			);
+			)
+			.setImage('https://i.imgur.com/5vxEaKX.png');
 
 		await msg.channel.send({
 			content: '',
